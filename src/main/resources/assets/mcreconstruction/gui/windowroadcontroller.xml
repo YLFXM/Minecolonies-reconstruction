@@ -1,0 +1,19 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="280 140"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ldtteam/BlockUI/version/main/src/main/resources/assets/blockui/gui/block_ui.xsd">
+    <image source="minecolonies:textures/gui/builderhut/builder_paper_sketch.png" size="100% 100%"/>
+
+    <text id="title" size="260 12" pos="10 8" textalign="MIDDLE" color="black"
+          label="$(mcreconstruction.gui.road_controller)"/>
+    <text id="name" size="260 12" pos="10 24" textalign="MIDDLE" color="black"/>
+    <text id="state" size="260 10" pos="10 38" textalign="MIDDLE" color="black"/>
+
+    <button id="upgrade" size="80 17" pos="10 86"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="$(mcreconstruction.gui.upgrade)" color="black"/>
+    <button id="repair" size="80 17" pos="100 86"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="$(mcreconstruction.gui.repair)" color="black"/>
+    <button id="remove" size="80 17" pos="190 86"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="$(mcreconstruction.gui.remove)" color="black"/>
+</window>

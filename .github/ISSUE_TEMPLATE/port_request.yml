@@ -1,0 +1,40 @@
+name: 迁移 / 版本移植
+description: 把本 mod 迁移到更新的 Minecraft / NeoForge / MineColonies 版本
+labels: ["port"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你愿意接手这个项目！移植前请先读仓库里的 `CONTRIBUTING.md`，
+        里面列出了版本升级时最容易静默失效的几个点，以及不可动摇的开发约定。
+
+  - type: input
+    id: target
+    attributes:
+      label: 目标版本 / Target versions
+      placeholder: "Minecraft 1.22.x / NeoForge 21.2.x / MineColonies x.x.x / Structurize x.x.x / BlockUI x.x.x"
+    validations:
+      required: true
+
+  - type: textarea
+    id: changes
+    attributes:
+      label: 改动说明 / What changed
+      description: 改了哪些文件、解决了哪些编译或运行问题
+    validations:
+      required: true
+
+  - type: textarea
+    id: tested
+    attributes:
+      label: 已验证的功能 / Verified features
+      description: |
+        例如：Complete / Pretty / Paste / Survival 四种建造方式、权限置灰、
+        联机结构包同步、Repair / Remove 清理
+    validations:
+      required: true
+
+  - type: textarea
+    id: remaining
+    attributes:
+      label: 已知遗留问题 / Known remaining issues

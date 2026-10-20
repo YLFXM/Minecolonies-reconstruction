@@ -1,0 +1,21 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="300 160"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ldtteam/BlockUI/version/main/src/main/resources/assets/blockui/gui/block_ui.xsd">
+    <image source="minecolonies:textures/gui/builderhut/builder_paper_sketch.png" size="100% 100%"/>
+
+    <text id="title" size="280 12" pos="10 8" textalign="MIDDLE" color="black"
+          label="Road Wand"/>
+    <text id="summary" size="280 20" pos="10 24" color="black" textalign="MIDDLE"/>
+    <text id="bound" size="280 10" pos="10 46" color="black" textalign="MIDDLE"/>
+    <text id="state" size="280 10" pos="10 58" color="black" textalign="MIDDLE"/>
+
+    <button id="plan" size="260 17" pos="8 78"
+            source="minecolonies:textures/gui/builderhut/builder_button_large.png"
+            label="Create Blueprint / Open Build Tool" color="black"/>
+
+    <button id="mirror" size="88 17" pos="8 106"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="Mirror: off" color="black"/>
+    <button id="clear" size="88 17" pos="104 106"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="Clear" color="black"/>
+</window>

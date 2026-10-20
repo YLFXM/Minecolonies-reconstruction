@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "XTX",
+    "XPX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "T": {
+      "item": "structurize:sceptergold"
+    }
+  },
+  "result": {
+    "id": "mcreconstruction:road_surveyor",
+    "count": 1
+  }
+}

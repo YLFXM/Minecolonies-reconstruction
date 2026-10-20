@@ -1,0 +1,41 @@
+# 构建产物
+/build/
+/dist/
+/out/
+*.class
+
+# 本机依赖 classpath（绝对路径，机器相关，不入库）
+/cp.txt
+
+# IDE
+/.idea/
+*.iml
+/.vscode/
+/.settings/
+/.classpath
+/.project
+/bin/
+
+# 日志与临时文件
+*.log
+logs/
+run/
+/logs/
+
+# 一次性协作文档（不属于长期维护内容，不入库）
+/docs/GitHub-导入指南.md
+
+# 发布说明（本地保留，粘贴到 GitHub Release；不入库）
+/RELEASE-*.md
+
+# 发布用描述词（内容与 README 重复，GitHub 首页即展示 README，不入库）
+/docs/description-en.md
+/docs/description-zh.md
+/docs/description-short.md
+
+# 前置 mod 的源码快照（放在仓库外 D:\PCL\workspace\refs，此处仅作兜底）
+/refs/
+
+# 系统文件
+Thumbs.db
+.DS_Store

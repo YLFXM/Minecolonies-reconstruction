@@ -1,0 +1,33 @@
+<window xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" size="320 232"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/ldtteam/BlockUI/version/main/src/main/resources/assets/blockui/gui/block_ui.xsd">
+    <image source="minecolonies:textures/gui/builderhut/builder_paper_sketch.png" size="100% 100%"/>
+
+    <text id="title" size="300 12" pos="10 8" textalign="MIDDLE" color="black"
+          label="Colony Work Orders"/>
+    <text id="subtitle" size="300 10" pos="10 21" textalign="MIDDLE" color="black"/>
+
+    <list id="orders" size="300 150" pos="10 34">
+        <box size="100% 30" linewidth="1">
+            <button id="select" size="20 18" pos="2 4"
+                    source="minecolonies:textures/gui/builderhut/builder_button_mini.png"
+                    label="[ ]" color="black"/>
+            <text id="orderName" size="266 10" pos="26 2" color="black"/>
+            <text id="orderDetail" size="266 9" pos="26 12" color="black" textscale="0.8"/>
+            <text id="orderLocation" size="266 9" pos="26 21" color="black" textscale="0.8"/>
+        </box>
+    </list>
+
+    <button id="selectAll" size="88 17" pos="8 188"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="Select All" color="black"/>
+    <button id="clear" size="88 17" pos="104 188"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="Clear" color="black"/>
+    <button id="close" size="88 17" pos="200 188"
+            source="minecolonies:textures/gui/builderhut/builder_button_medium.png"
+            label="Close" color="black"/>
+
+    <button id="cancelOrders" size="296 17" pos="8 210"
+            source="minecolonies:textures/gui/builderhut/builder_button_large.png"
+            label="Cancel Selected Orders" color="black"/>
+</window>

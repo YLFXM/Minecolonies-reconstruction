@@ -1,0 +1,10 @@
+{
+  "item.mcreconstruction.road_surveyor": "Road Surveyor",
+  "item.mcreconstruction.road_wand": "Road Wand",
+  "item.mcreconstruction.work_order_scroll": "Colony Work Order Scroll",
+  "mcreconstruction.gui.road_controller": "Road Controller",
+  "mcreconstruction.gui.upgrade": "Upgrade",
+  "mcreconstruction.gui.repair": "Repair",
+  "mcreconstruction.gui.remove": "Remove",
+  "itemGroup.mcreconstruction": "MineColonies: Reconstruction Plan"
+}

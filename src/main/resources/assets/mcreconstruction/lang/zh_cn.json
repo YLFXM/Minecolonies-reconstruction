@@ -1,0 +1,10 @@
+{
+  "item.mcreconstruction.road_wand": "道路魔杖",
+  "item.mcreconstruction.work_order_scroll": "殖民地工单卷轴",
+  "item.mcreconstruction.road_surveyor": "道路勘测仪",
+  "mcreconstruction.gui.road_controller": "道路控制器",
+  "mcreconstruction.gui.upgrade": "升级",
+  "mcreconstruction.gui.repair": "修复",
+  "mcreconstruction.gui.remove": "拆除",
+  "itemGroup.mcreconstruction": "模拟殖民地：重构计划"
+}

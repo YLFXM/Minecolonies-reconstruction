@@ -1,0 +1,54 @@
+name: 问题反馈 / Bug report
+description: 报告一个 MineColonies: Reconstruction Plan 的问题
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请先确认下面的版本信息，版本不匹配是本 mod 最常见的问题来源。
+
+  - type: input
+    id: versions
+    attributes:
+      label: 版本 / Versions
+      placeholder: "Minecraft 1.21.1 / NeoForge 21.1.259 / MineColonies 1.1.1403 / Structurize 1.0.835 / BlockUI 1.0.212"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: same-jar
+    attributes:
+      label: 联机时两端是否使用完全相同的 jar？
+      options:
+        - 单机 / Singleplayer
+        - 是，两端完全一致 / Yes, identical
+        - 否 / No
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么 / What happened
+      description: 期望的行为 vs 实际的行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      placeholder: |
+        1. 放置原生 decorationcontroller
+        2. 手持 Road Wand 左键选 A 点
+        3. Shift+左键选 B 点
+        4. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: log
+    attributes:
+      label: 日志片段 / Relevant log output
+      description: logs/latest.log 中与 mcreconstruction 相关的部分
+      render: shell
